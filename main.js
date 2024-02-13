@@ -24,14 +24,9 @@ const createGrid = (n) => {
     grids.forEach(grid => {
         grid.style.width = 400 / n + 'px';
         grid.style.height = 400 / n + 'px';
-        grid.style.border = '1px solid black';
         
         grid.addEventListener('mouseover', () => {
             grid.style.backgroundColor = '#000'
         })
-        
-        grid.addEventListener('mouseout', () => {
-            grid.style.backgroundColor = ''
-        }) 
     }) 
 }
