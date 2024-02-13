@@ -10,3 +10,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 5px;
+}
